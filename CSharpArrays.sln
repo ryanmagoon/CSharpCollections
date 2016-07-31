@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpArrays", "CSharpArrays\CSharpArrays.csproj", "{8D1F80E7-84C9-4A72-AECC-F2B7329FDF8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicArrayOps", "BasicArrayOps\BasicArrayOps.csproj", "{D4217599-DF29-4907-8853-63072C1CCCED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8D1F80E7-84C9-4A72-AECC-F2B7329FDF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D1F80E7-84C9-4A72-AECC-F2B7329FDF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D1F80E7-84C9-4A72-AECC-F2B7329FDF8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4217599-DF29-4907-8853-63072C1CCCED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4217599-DF29-4907-8853-63072C1CCCED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4217599-DF29-4907-8853-63072C1CCCED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4217599-DF29-4907-8853-63072C1CCCED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
