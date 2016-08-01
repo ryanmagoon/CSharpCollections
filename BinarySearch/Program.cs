@@ -23,6 +23,8 @@ namespace BinarySearch
             int indexOfSun = Array.BinarySearch(sortedDays, "Sunday");
             // int indexOfSun = Array.IndexOf(sortedDays, "Sunday");
             Console.WriteLine("Index is " + indexOfSun);
+
+            // Binary search may require an IComparer<T> to search properly
         }
     }
 }
