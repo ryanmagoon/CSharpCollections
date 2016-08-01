@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArray", "ReverseArra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortArray", "SortArray\SortArray.csproj", "{75CEE98D-BAF6-4479-B410-E018C06F9A4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindElements", "FindElements\FindElements.csproj", "{448006C7-052D-4A9E-BD1E-A2AFDFA95880}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{75CEE98D-BAF6-4479-B410-E018C06F9A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75CEE98D-BAF6-4479-B410-E018C06F9A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75CEE98D-BAF6-4479-B410-E018C06F9A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{448006C7-052D-4A9E-BD1E-A2AFDFA95880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448006C7-052D-4A9E-BD1E-A2AFDFA95880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448006C7-052D-4A9E-BD1E-A2AFDFA95880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448006C7-052D-4A9E-BD1E-A2AFDFA95880}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
