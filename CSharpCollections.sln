@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddToList", "AddToList\AddT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonBlankStringList", "NonBlankStringList\NonBlankStringList.csproj", "{2A060FCD-3D05-4E9D-A7C5-35C41E834A88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObservableCollection", "ObservableCollection\ObservableCollection.csproj", "{9199D0E2-F982-4809-8842-EC1992E53676}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{2A060FCD-3D05-4E9D-A7C5-35C41E834A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A060FCD-3D05-4E9D-A7C5-35C41E834A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A060FCD-3D05-4E9D-A7C5-35C41E834A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9199D0E2-F982-4809-8842-EC1992E53676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9199D0E2-F982-4809-8842-EC1992E53676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9199D0E2-F982-4809-8842-EC1992E53676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9199D0E2-F982-4809-8842-EC1992E53676}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
