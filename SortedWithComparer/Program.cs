@@ -10,7 +10,7 @@ namespace SortedWithComparer
     {
         static void Main(string[] args)
         {
-            var primeMinisters = new SortedList<string, PrimeMinister>
+            var primeMinisters = new SortedDictionary<string, PrimeMinister>
                 (new UncasedStringComparer())
             {
                 {"JC", new PrimeMinister("James Callaghan", 1976) },
