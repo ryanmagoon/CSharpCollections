@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stacks", "Stacks\Stacks.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queues", "Queues\Queues.csproj", "{DBF7508A-6050-4C54-8708-49F6BB8B2B51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeMinistersDictionary", "PrimeMinistersDictionary\PrimeMinistersDictionary.csproj", "{6BD4DE63-2100-419E-A6C8-B351C4B9CE5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{DBF7508A-6050-4C54-8708-49F6BB8B2B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBF7508A-6050-4C54-8708-49F6BB8B2B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBF7508A-6050-4C54-8708-49F6BB8B2B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD4DE63-2100-419E-A6C8-B351C4B9CE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD4DE63-2100-419E-A6C8-B351C4B9CE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD4DE63-2100-419E-A6C8-B351C4B9CE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD4DE63-2100-419E-A6C8-B351C4B9CE5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
