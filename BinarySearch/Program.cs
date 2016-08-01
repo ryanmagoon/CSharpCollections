@@ -10,7 +10,19 @@ namespace BinarySearch
     {
         static void Main(string[] args)
         {
-            double[] doubleArr;
+            string[] sortedDays = {
+                "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday"
+            };
+
+            int indexOfSun = Array.BinarySearch(sortedDays, "Sunday");
+            // int indexOfSun = Array.IndexOf(sortedDays, "Sunday");
+            Console.WriteLine("Index is " + indexOfSun);
         }
     }
 }
