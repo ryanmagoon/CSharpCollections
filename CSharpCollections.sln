@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeachReadOnly", "ForeachR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayCovariance", "ArrayCovariance\ArrayCovariance.csproj", "{358244E9-7D4B-4C50-9164-06B922DF293A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{60252D2B-1298-44C1-9B99-ED8F59C5821E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayCopy", "ArrayCopy\ArrayCopy.csproj", "{6B884BEA-8684-4BCE-9F62-E2ED86A0C99E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{358244E9-7D4B-4C50-9164-06B922DF293A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{358244E9-7D4B-4C50-9164-06B922DF293A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{358244E9-7D4B-4C50-9164-06B922DF293A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60252D2B-1298-44C1-9B99-ED8F59C5821E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60252D2B-1298-44C1-9B99-ED8F59C5821E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60252D2B-1298-44C1-9B99-ED8F59C5821E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60252D2B-1298-44C1-9B99-ED8F59C5821E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B884BEA-8684-4BCE-9F62-E2ED86A0C99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B884BEA-8684-4BCE-9F62-E2ED86A0C99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B884BEA-8684-4BCE-9F62-E2ED86A0C99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B884BEA-8684-4BCE-9F62-E2ED86A0C99E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
