@@ -10,6 +10,21 @@ namespace SortedListDemo
     {
         static void Main(string[] args)
         {
+            // a sortedlist is a dictionary that keeps its values sorted
+            var primeMinisters = new SortedList<string, PrimeMinister>
+            {
+                {"JC", new PrimeMinister("James Callaghan", 1976) },
+                {"MT", new PrimeMinister("Margaret Thatcher", 1979) },
+                {"TB", new PrimeMinister("Tony Blair", 1997) }
+            };
+
+            primeMinisters.Add("JM", new PrimeMinister("John Major", 1990));
+            Console.WriteLine(primeMinisters["TB"]);
+
+            foreach (var pm in primeMinisters)
+            {
+                Console.WriteLine(pm);
+            }
         }
     }
 }
