@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeMinistersDictionary", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompareKeys", "CompareKeys\CompareKeys.csproj", "{57E76A2A-7E2D-4BDB-9A9F-2C969B063A45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadOnlyDict", "ReadOnlyDict\ReadOnlyDict.csproj", "{4E6B91AE-A406-4931-9900-23FFB050048D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedListDemo", "SortedListDemo\SortedListDemo.csproj", "{2F29A5EF-39B0-4075-A1F3-3347F37FAC64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{57E76A2A-7E2D-4BDB-9A9F-2C969B063A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57E76A2A-7E2D-4BDB-9A9F-2C969B063A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57E76A2A-7E2D-4BDB-9A9F-2C969B063A45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E6B91AE-A406-4931-9900-23FFB050048D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6B91AE-A406-4931-9900-23FFB050048D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6B91AE-A406-4931-9900-23FFB050048D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6B91AE-A406-4931-9900-23FFB050048D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F29A5EF-39B0-4075-A1F3-3347F37FAC64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F29A5EF-39B0-4075-A1F3-3347F37FAC64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F29A5EF-39B0-4075-A1F3-3347F37FAC64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F29A5EF-39B0-4075-A1F3-3347F37FAC64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
