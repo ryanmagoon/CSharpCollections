@@ -27,7 +27,7 @@ namespace ArrayCovariance
 
 
             // completely different types
-            // you can always implicitly case an array of a derived type to a base type
+            // you can always implicitly cast an array of a derived type to a base type
             // This is known as array covariance
             object[] objArr2 = daysOfWeek;
             objArr2[0] = 3;
