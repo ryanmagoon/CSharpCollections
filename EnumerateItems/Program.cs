@@ -21,7 +21,7 @@ namespace EnumerateItems
                 "Sunday"
             };
 
-            DisplayItems(daysOfWeek);
+            DisplayItems2(daysOfWeek);
         }
 
         public static void DisplayItems<T>(IEnumerable<T> collection)
@@ -35,6 +35,14 @@ namespace EnumerateItems
                     Console.WriteLine(item);
                     moreItems = enumerator.MoveNext();
                 }
+            }
+        }
+
+        public static void DisplayItems2<T>(IEnumerable<T> collection)
+        {
+            foreach (T item in collection)
+            {
+                Console.WriteLine(item);
             }
         }
     }
