@@ -26,13 +26,23 @@ namespace Intersect
                 "Manchester"
             };
 
-            // The LINQ Intersect method doesn't change the original HashSet
-            // It returns a new enumerable
-            var newCities = bigCities.Intersect(citiesInUk);
-            foreach (string city in newCities)
+            //bigCities.UnionWith(citiesInUk);
+
+            //bigCities.SymmetricExceptWith(citiesInUk);
+
+            bigCities.ExceptWith(citiesInUk);
+            foreach (string city in bigCities)
             {
                 Console.WriteLine(city);
             }
+
+            // The LINQ Intersect method doesn't change the original HashSet
+            // It returns a new enumerable
+            //var newCities = bigCities.Intersect(citiesInUk);
+            //foreach (string city in newCities)
+            //{
+            //    Console.WriteLine(city);
+            //}
 
             //bigCities.IntersectWith(citiesInUk);
             //foreach (string city in bigCities)
